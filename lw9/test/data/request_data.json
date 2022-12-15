@@ -1,0 +1,281 @@
+{
+  "create_products": [
+    {
+      "product": {
+        "id": 1000,
+        "category_id": 1,
+        "title": "product1",
+        "alias": "product1",
+        "content": "abstract product",
+        "price": 322,
+        "old_price": 228,
+        "status": 0,
+        "keywords": "product keywords",
+        "description": "product description",
+        "hit": 0
+      }
+    },
+    {
+      "product": {
+        "id": 1000,
+        "category_id": 3,
+        "title": "product2",
+        "alias": "product2",
+        "content": "abstract product",
+        "price": 99,
+        "old_price": 100,
+        "status": 0,
+        "keywords": "product keywords",
+        "description": "product description",
+        "hit": 1
+      }
+    },
+    {
+      "product": {
+        "id": 1000,
+        "category_id": 14,
+        "title": "product3",
+        "alias": "product3",
+        "content": "abstract product",
+        "price": 1000000000,
+        "old_price": 100,
+        "status": 1,
+        "keywords": "product123 keywords",
+        "description": "product 123description",
+        "hit": 1
+      }
+    }
+  ],
+  "edit_products": [
+    {
+      "product": {
+        "id": 1000,
+        "category_id": 1,
+        "title": "product1",
+        "alias": "product1",
+        "content": "abstract product",
+        "price": 322,
+        "old_price": 228,
+        "status": 0,
+        "keywords": "product keywords",
+        "description": "product description",
+        "hit": 0
+      },
+      "edited_product": {
+        "id": 1000,
+        "category_id": 3,
+        "title": "product1",
+        "alias": "product1",
+        "content": "abstract product",
+        "price": 322,
+        "old_price": 228,
+        "status": 0,
+        "keywords": "product keywords",
+        "description": "product description",
+        "hit": 0
+      }
+    },
+    {
+      "product": {
+        "id": 1000,
+        "category_id": 3,
+        "title": "product2",
+        "alias": "product2",
+        "content": "abstract product",
+        "price": 99,
+        "old_price": 100,
+        "status": 0,
+        "keywords": "product keywords",
+        "description": "product description",
+        "hit": 1
+      },
+      "edited_product": {
+        "id": 1000,
+        "category_id": 3,
+        "title": "product_2",
+        "alias": "product_23",
+        "content": "abstract product",
+        "price": 322,
+        "old_price": 228,
+        "status": 0,
+        "keywords": "product keywords",
+        "description": "product description",
+        "hit": 0
+      }
+    },
+    {
+      "product": {
+        "id": 1000,
+        "category_id": 14,
+        "title": "product3",
+        "alias": "product3",
+        "content": "abstract product",
+        "price": 100,
+        "old_price": 100,
+        "status": 1,
+        "keywords": "product123 keywords",
+        "description": "product 123description",
+        "hit": 1
+      },
+      "edited_product": {
+        "id": 1000,
+        "category_id": 14,
+        "title": "product1",
+        "alias": "product1",
+        "content": "product product",
+        "price": 100,
+        "old_price": 100,
+        "status": 0,
+        "keywords": "product keywords",
+        "description": "product description",
+        "hit": 1
+      }
+    },
+    {
+      "product": {
+        "id": 1000,
+        "category_id": 5,
+        "title": "product_4",
+        "alias": "product_4",
+        "content": "abstract product",
+        "price": 100,
+        "old_price": 100,
+        "status": 1,
+        "keywords": "product123 keywords",
+        "description": "product 123description",
+        "hit": 1
+      },
+      "edited_product": {
+        "id": 1000,
+        "category_id": 5,
+        "title": "product_4",
+        "alias": "product1_4",
+        "content": "product product",
+        "price": 999,
+        "old_price": 100,
+        "status": 0,
+        "keywords": "product keywords",
+        "description": "product description",
+        "hit": 0
+      }
+    }
+  ],
+  "edit_products_fail": [
+    {
+      "product": {
+        "id": 1000,
+        "category_id": 1,
+        "title": "invalid category id",
+        "alias": "product1",
+        "content": "abstract product",
+        "price": 322,
+        "old_price": 228,
+        "status": 0,
+        "keywords": "product keywords",
+        "description": "product description",
+        "hit": 0
+      },
+      "edited_product": {
+        "id": 1000,
+        "category_id": 20,
+        "title": "product1",
+        "alias": "product1",
+        "content": "abstract product",
+        "price": 322,
+        "old_price": 228,
+        "status": 0,
+        "keywords": "product keywords",
+        "description": "product description",
+        "hit": 0
+      }
+    },
+    {
+      "product": {
+        "id": 1000,
+        "category_id": 14,
+        "title": "product3",
+        "alias": "product3",
+        "content": "invalid hit",
+        "price": 100,
+        "old_price": 100,
+        "status": 1,
+        "keywords": "product123 keywords",
+        "description": "product 123description",
+        "hit": 1
+      },
+      "edited_product": {
+        "id": 1000,
+        "category_id": 14,
+        "title": "product1",
+        "alias": "product1",
+        "content": "product product",
+        "price": 100,
+        "old_price": 100,
+        "status": 0,
+        "keywords": "product keywords",
+        "description": "product description",
+        "hit": 15
+      }
+    }
+  ],
+  "create_products_fail": [
+    {
+      "product": {
+        "id": 1000,
+        "category_id": 20,
+        "title": "invalid product category",
+        "alias": "product1",
+        "content": "abstract product",
+        "price": 322,
+        "old_price": 228,
+        "status": 0,
+        "keywords": "product keywords",
+        "description": "product description",
+        "hit": 0
+      }
+    },
+    {
+      "product": {
+        "id": 1000,
+        "category_id": 14,
+        "title": "invalid hit",
+        "alias": "product3",
+        "content": "abstract product",
+        "price": 100,
+        "old_price": 100,
+        "status": 1,
+        "keywords": "product123 keywords",
+        "description": "product 123description",
+        "hit": 15
+      }
+    },
+    {
+      "product": {
+        "id": 1000,
+        "category_id": 14,
+        "title": "invalid status",
+        "alias": "product3",
+        "content": "abstract product",
+        "price": 100,
+        "old_price": 100,
+        "status": 100,
+        "keywords": "product123 keywords",
+        "description": "product 123description",
+        "hit": 15
+      }
+    }
+  ],
+  "unique_product": {
+    "id": 1000,
+    "category_id": 14,
+    "title": "evgeniy_fedoseev",
+    "alias": "evgeniy_fedoseev_0",
+    "content": "abstract product",
+    "price": 100,
+    "old_price": 100,
+    "status": 100,
+    "keywords": "product123 keywords",
+    "description": "product 123description",
+    "hit": 0
+  }
+}
